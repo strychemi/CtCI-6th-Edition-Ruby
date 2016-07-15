@@ -14,3 +14,4 @@ To run the tests:
 2. Navigate to the root directory of the repo via terminal/command line interface.
 4. Run the command `bundle install` to install all dependencies.
 5. Once this has completed run the command `rspec` to run all the tests.
+6. Or, to run a specific test,  run the command `rspec spec/ch01/1.01_spec.rb` for example.
