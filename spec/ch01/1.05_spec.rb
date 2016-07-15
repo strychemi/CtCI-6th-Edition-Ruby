@@ -10,10 +10,6 @@ describe "1.4 Palindrome Permutation" do
     expect(palindrome_permutation?(' a ba ')).to eq(true)
   end
 
-  it "returns true for 'aab'" do
-    expect(palindrome_permutation?('aab')).to eq(true)
-  end
-
   it "returns false for 'abc'" do
     expect(palindrome_permutation?('abc')).to eq(false)
   end
