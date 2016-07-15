@@ -1,18 +1,25 @@
-require "ch01/1.04.rb"
+require "ch01/1.05.rb"
 
-describe "1.4 Palindrome Permutation" do
+describe "1.5 Palindrome Permutation" do
 
-  it "returns true for Tact Coa" do
-    expect(palindrome_permutation?('Tact Coa')).to eq(true)
+  it "returns false for 'aaa', 'a'" do
+    expect(one_away('aaa', 'a')).to eq(false)
   end
 
-  it "returns true for ' a ba '" do
-    expect(palindrome_permutation?(' a ba ')).to eq(true)
+  it "returns true for 'pale', 'ple'" do
+    expect(one_away('pale', 'ple')).to eq(true)
   end
 
-  it "returns false for 'abc'" do
-    expect(palindrome_permutation?('abc')).to eq(false)
+  it "returns true for 'pales', 'pale'" do
+    expect(one_away('pales', 'pale')).to eq(true)
   end
 
+  it "returns true for 'pale', 'bale'" do
+    expect(one_away('pale', 'bale')).to eq(true)
+  end
+
+  it "returns false for 'pale', 'bake'" do
+    expect(one_away('pale', 'bake')).to eq(true)
+  end
 
 end
