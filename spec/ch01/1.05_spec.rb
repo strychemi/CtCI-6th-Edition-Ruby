@@ -1,6 +1,6 @@
 require "ch01/1.05.rb"
 
-describe "1.5 Palindrome Permutation" do
+describe "1.5 One Away" do
 
   it "returns false for 'aaa', 'a'" do
     expect(one_away('aaa', 'a')).to eq(false)
