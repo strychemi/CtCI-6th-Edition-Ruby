@@ -2,10 +2,6 @@ require "ch02/2.01.rb"
 
 describe "2.1 Remove Dups" do
 
-  before(:all) do
-    Node = Struct.new(:next, :data)
-  end
-
   it "a > a > b > c becomes a > b > c" do
     input = Node.new(Node.new(Node.new(Node.new(nil, "c"), "b"), "a"), "a")
     output = Node.new(Node.new(Node.new(nil, "c"), "b"), "a")

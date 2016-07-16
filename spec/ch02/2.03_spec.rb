@@ -2,10 +2,6 @@ require "ch02/2.03.rb"
 
 describe "2.3 Delete Middle Node" do
 
-  before(:all) do
-    Node = Struct.new(:next, :data)
-  end
-
   let(:linked_list) { Node.new(Node.new(Node.new(nil, "c"), "b"), "a") }
 
   it "supplying the last node results in an error" do

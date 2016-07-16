@@ -1,6 +1,6 @@
 # Remove Dups
 
-# Node = Struct.new(:next, :data)
+Node = Struct.new(:next, :data)
 # linked_list is assumed to be a list of Nodes
 # connected via the .next reference
 # please refer to spec/ch02/2.01_spec.rb file to see how

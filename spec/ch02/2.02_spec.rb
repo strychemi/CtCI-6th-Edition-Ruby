@@ -2,10 +2,6 @@ require "ch02/2.02.rb"
 
 describe "2.2 Return kth to the Last" do
 
-  before(:all) do
-    Node = Struct.new(:next, :data)
-  end
-
   let(:linked_list) { Node.new(Node.new(Node.new(nil, "c"), "b"), "a") }
 
   it "k = 1, should return c from a > b > c" do
