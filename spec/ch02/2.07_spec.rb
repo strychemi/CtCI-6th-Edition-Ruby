@@ -1,6 +1,6 @@
-require "ch02/2.06.rb"
+require "ch02/2.07.rb"
 
-describe "2.6 Palindrome" do
+describe "2.7 Sum Lists" do
   let(:one) { LinkedList.new([1,2,3]) }
 
   it "1>2>3 is NOT a palindrome" do
