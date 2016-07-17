@@ -30,9 +30,15 @@ class LinkedList
     current = @head
     str = ""
     while current
-      str += "#{current.data} "
+      str += "#{current.data}"
       current = current.next
     end
     return str.strip
   end
+end
+
+# assumed digits in linked lists are in forward order
+def sum_lists(one, two)
+  sum = one.to_str.to_i + two.to_str.to_i
+  return LinkedList.new(sum.to_s.split(""))
 end
