@@ -17,10 +17,13 @@ describe "1.9 String Rotation" do
   describe "#string_rotation?" do
 
     it "'waterbottle' and 'erbottlewat' is a valid rotation" do
-      expect(string_rotation?('waterbottle', 'erbottlewat'))
+      expect(string_rotation?('waterbottle', 'erbottlewat')).to eq true
     end
 
     it "'waterbottle' and 'tawerbottle' is invalid" do
+      expect(string_rotation?('tawerbottle')).to eq false
     end
+
   end
+
 end
