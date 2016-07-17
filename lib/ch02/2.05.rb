@@ -1,4 +1,4 @@
-# Partition
+# Sum Lists
 
 Node = Struct.new(:data, :next)
 
@@ -35,21 +35,4 @@ class LinkedList
     end
     return str.strip
   end
-end
-
-def partition(linked_list, val)
-  lo = LinkedList.new
-  hi = LinkedList.new
-  current = linked_list.head
-
-  while current
-    if current.data >= val
-      hi.append(current.data)
-    else
-      lo.append(current.data)
-    end
-    current = current.next
-  end
-
-  return lo + hi
 end
