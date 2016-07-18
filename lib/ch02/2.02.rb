@@ -1,13 +1,5 @@
+require_relative "linked_list.rb"
 # Return kth to the Last
-
-Node = Struct.new(:next, :data)
-# linked_list is assumed to be a list of Nodes
-# connected via the .next reference
-# please refer to spec/ch02/2.02_spec.rb file to see how
-# the linked list is setup
-
-# k = 1 is last,
-# k = 2 is second to last, etc.
 
 def kth_last(linked_list, k)
   # r1 is spaced k-1 nodes ahead of r2

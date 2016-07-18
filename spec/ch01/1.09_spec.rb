@@ -21,7 +21,7 @@ describe "1.9 String Rotation" do
     end
 
     it "'waterbottle' and 'tawerbottle' is invalid" do
-      expect(string_rotation?('tawerbottle')).to eq false
+      expect(string_rotation?('waterbottle', 'tawerbottle')).to eq false
     end
 
   end
