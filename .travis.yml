@@ -1,0 +1,12 @@
+language: ruby
+sudo: false
+cache: bundler
+bundler_args: --without guard
+script: "bundle exec rspec"
+
+rvm:
+  - 2.2
+  - 2.3
+
+branches:
+  only: master
