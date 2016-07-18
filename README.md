@@ -1,5 +1,7 @@
 # Cracking the Coding Interview 6th Edition (Ruby Solutions)
 
+[![Build Status](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby.svg?branch=master)](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby)
+
 These are solutions to the questions to Cracking the Coding Interview 6th edition in Ruby.
 
 ## Getting Started
