@@ -17,10 +17,10 @@ def zero_matrix(matrix)
   end
 
   # set rows to 0
-  null_rows.each { |_k, v| n.times { |c| matrix[k][c] = 0 }}
+  null_rows.each { |k, _v| n.times { |c| matrix[k][c] = 0 }}
 
   # set cols to 0
-  null_cols.each { |_k, v| m.times { |r| matrix[r][k] = 0 }}
+  null_cols.each { |k, _v| m.times { |r| matrix[r][k] = 0 }}
 
   return matrix
 end

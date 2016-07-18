@@ -1,6 +1,8 @@
 # Cracking the Coding Interview 6th Edition (Ruby Solutions)
 
 [![Build Status](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby.svg?branch=master)](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby)
+[![Code Climate](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby/badges/gpa.svg)](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby)
+[![Coverage Status](https://coveralls.io/repos/github/strychemi/CtCI-6th-Edition-Ruby/badge.svg?branch=master)](https://coveralls.io/github/strychemi/CtCI-6th-Edition-Ruby?branch=master)
 
 These are solutions to the questions to Cracking the Coding Interview 6th edition in Ruby.
 
