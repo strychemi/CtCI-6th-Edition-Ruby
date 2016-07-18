@@ -11,7 +11,7 @@ def palindrome_permutation?(str)
     end
   end
 
-  odd_occuring_letters = chars.select { |k, v| v.odd? }.length
+  odd_occuring_letters = chars.select { |_v, v| v.odd? }.length
 
   if str_length.odd?
     return odd_occuring_letters == 1 ? true : false

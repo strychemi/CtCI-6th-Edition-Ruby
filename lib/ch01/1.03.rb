@@ -2,7 +2,7 @@
 
 def urlify(str, n)
   spaces = 0
-  str.chars.each { |c| spaces += 1 }
+  str.chars.each { spaces += 1 }
   spaces /= 3
 
   n.times do |i|
@@ -12,5 +12,5 @@ def urlify(str, n)
     end
   end
 
-  return str.gsub(" ", "")
+  return str.delete(" ")
 end
