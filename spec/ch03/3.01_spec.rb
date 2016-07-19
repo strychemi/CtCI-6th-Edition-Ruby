@@ -1,7 +1,7 @@
 require "ch03/3.01.rb"
 
 describe "3.1 Three in One" do
-  describe "Many Stacks" do
+  describe ManyStacks do
     let(:stack3) { ManyStacks.new(3) }
     let(:fullstack) do
       obj = ManyStacks.new(3)
