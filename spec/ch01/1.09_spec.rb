@@ -24,6 +24,10 @@ describe "1.9 String Rotation" do
       expect(string_rotation?('waterbottle', 'tawerbottle')).to eq false
     end
 
+    it "'abc' and 'aa' is invalid" do
+      expect(string_rotation?('abc', 'aa')).to eq false
+    end
+
   end
 
 end

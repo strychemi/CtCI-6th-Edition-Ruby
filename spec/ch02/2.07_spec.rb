@@ -17,4 +17,10 @@ describe "2.7 Intersection" do
     expect(intersection(first, second)).to eq nil
   end
 
+  it "two intersecting lists of differing lengths returns node" do
+    first = one + two + thr
+    second = two + thr
+    expect(intersection(first, second)).to eq two.head
+  end
+
 end
