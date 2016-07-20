@@ -1,9 +1,5 @@
 # Cracking the Coding Interview 6th Edition (Ruby Solutions)
 
-[![Build Status](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby.svg?branch=master)](https://travis-ci.org/strychemi/CtCI-6th-Edition-Ruby)
-[![Code Climate](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby/badges/gpa.svg)](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby)
-[![Coverage Status](https://coveralls.io/repos/github/strychemi/CtCI-6th-Edition-Ruby/badge.svg?branch=master)](https://coveralls.io/github/strychemi/CtCI-6th-Edition-Ruby?branch=master)
-
 These are solutions to the questions to Cracking the Coding Interview 6th edition in Ruby.
 
 ## Getting Started
@@ -17,5 +13,5 @@ To run the tests:
 1. Download/clone repository.
 2. Navigate to the root directory of the repo via terminal/command line interface.
 4. Run the command `bundle install` to install all dependencies.
-5. Once this has completed run the command `rspec` to run all the tests.
-6. Or, to run a specific test,  run the command `rspec spec/ch01/1.01_spec.rb` for example.
+5. Due to the nature of this project dir setup, the `rspec` command to run all tests won't work as intended.
+6. Run the command `rspec spec/ch01/1.01_spec.rb` to run tests for specific problems only.
