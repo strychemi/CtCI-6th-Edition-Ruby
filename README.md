@@ -1,3 +1,5 @@
+[![Code Climate](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby/badges/gpa.svg)](https://codeclimate.com/github/strychemi/CtCI-6th-Edition-Ruby)
+
 # Cracking the Coding Interview 6th Edition (Ruby Solutions)
 
 These are solutions to the questions to Cracking the Coding Interview 6th edition in Ruby.
