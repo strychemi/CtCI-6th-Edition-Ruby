@@ -29,8 +29,8 @@ def bst_sequences(node)
     q << current.l if current.l
     q << current.r if current.r
   end
-  depth = depth.map { |pair| pair[1] }
-  p depth
+  depth = depth.map { |k, v| depth[k] = v.permutation.to_a }
   # return all the permutations of nodes
-  return depth.first.product(*depth[1..-1])
+  solution = depth.first.first.product(*(depth[1..-1]))
+  solution.map! { |x| x.flatten}
 end
