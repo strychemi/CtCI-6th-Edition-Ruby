@@ -8,4 +8,7 @@ describe "4.12 Paths with Sum" do
     expect(count_paths_with_sum(bst_1, 5)).to eq 1
   end
 
+  it "returns 0 paths for sum 999 for [1,2,3] BST" do
+    expect(count_paths_with_sum(bst_1, 999)).to eq 0
+  end
 end
