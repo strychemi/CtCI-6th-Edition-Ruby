@@ -1,9 +1,18 @@
 # Insertion
 
 def insertion(m, n, i, j)
-  n_l = n.length - 1
+  # bit position starts from right with i = 0
+  # preserve 1's left of bit j
+  left = ~0 << j + 1
+   # preserve 1's right of bit i
+  right = (1 << i) - 1
+  # create mask to clear all bits from index i through j in n
+  mask = left | right
 
-  # replace bits at location i through j in n_2 with m_2
-  n[n_l-j..n_l-i] = m
-  return n
+  # clear bits i through j in n
+  n_cleared = n & mask
+  # shift m to correct position
+  m_shifted = m << i
+  
+  return n_cleared | m_shifted
 end
