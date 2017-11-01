@@ -10,9 +10,5 @@ def permutation?(a, b)
     b_chars[b[i]] += 1
   end
 
-  a_chars.each do |k, v|
-    return false if v != b_chars[k]
-  end
-
-  return true
+  return a_chars == b_chars;
 end
